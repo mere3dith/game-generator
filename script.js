@@ -178,13 +178,13 @@ var values = [
 ]
 
 
-var shuffle1 = document.getElementById("shuffle1");
+var shuffle = document.getElementById("shuffle");
 var game = document.getElementById("game");
 var verb = document.getElementById("verb");
 var challenge = document.getElementById("challenge");
 var value = document.getElementById("value");
 
-shuffle1.addEventListener("click", function(){
+shuffle.addEventListener("click", function(){
   var randomGame = Math.floor(Math.random() * games.length);
   var randomVerb = Math.floor(Math.random() * verbs.length);
   var randomChallenge = Math.floor(Math.random() * challenges.length);
