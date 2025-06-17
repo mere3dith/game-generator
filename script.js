@@ -178,7 +178,7 @@ var values = [
 ]
 
 
-var shuffle = document.getElementById("shuffle");
+var shuffle = document.getElementById("shuffle1");
 var game = document.getElementById("game");
 var verb = document.getElementById("verb");
 var challenge = document.getElementById("challenge");
